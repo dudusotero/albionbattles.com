@@ -1,15 +1,15 @@
 body {
   margin: 0;
   overflow-x: hidden !important;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
 
@@ -31,20 +31,20 @@ code {
 }
 
 .fameandkills {
-  border-left: 3px solid ;
+  border-left: 3px solid;
   animation: borderColor 1s infinite alternate;
 }
 
 .empty-image:empty:before {
-  content: "\200b"; 
+  content: "\200b";
 }
 
 @keyframes borderColor {
   from {
-      border-left: 3px solid rgb(224, 41, 131);
+    border-left: 3px solid rgb(224, 41, 131);
   }
   to {
-      border-left: 3px solid #29e09d;
+    border-left: 3px solid #29e09d;
   }
 }
 
@@ -57,14 +57,14 @@ code {
 }
 
 .item-list::-webkit-scrollbar {
-  width: 6px;               /* width of the entire scrollbar */
+  width: 6px; /* width of the entire scrollbar */
 }
 .item-list::-webkit-scrollbar-track {
-  background: #0f131a;        /* color of the tracking area */
+  background: #0f131a; /* color of the tracking area */
 }
 .item-list::-webkit-scrollbar-thumb {
-  background-color: rgb(41, 206, 224);    /* color of the scroll thumb */
-  border-radius: 5px;       /* roundness of the scroll thumb */
+  background-color: rgb(41, 206, 224); /* color of the scroll thumb */
+  border-radius: 5px; /* roundness of the scroll thumb */
 }
 
 /* 
